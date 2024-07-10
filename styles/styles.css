@@ -16,6 +16,12 @@
     color: #0D1321;
  }
 
+ .description-property {
+    color: #0D1321;
+    opacity: .7;
+    font-size: 16px;
+    font-weight: 400;
+ }
 
  .button-primary {
     font-size: 20px;
@@ -83,11 +89,59 @@
  }
 
  .banner-description {
-    font-size: 16px;
-    font-weight: 400;
-    opacity: .7;
     padding: 0px 73px 32px;
  }
 
 
- 
+ /* Why Web Development Section or Section-1 */
+
+ .section-1 {
+    background-color: rgba(13, 19, 33, 0.02);
+    max-width: 1140px;
+    margin: 74px auto 90px;
+    padding: 80px 97px;
+ }
+
+ .section-1-heading {
+    font-size: 32px;
+    font-weight: bolder;
+    margin: 80px auto 24px;
+ }
+
+ .section-1-description {
+    margin: 0px auto 48px;
+    padding: 0px 47px;
+ }
+
+ .section-info {
+    display: flex;
+    text-align: left;
+    background-color: #FFFFFF;
+    padding: 48px 48px;
+    margin-bottom: 32px;
+    border-radius: 16px;
+ }
+
+.section-1-info-heading {
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 280px;
+
+}
+
+ .section-1-info-description {
+    padding-right: 120px;
+
+ }
+
+
+.button-3 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    width: 171px;
+    height: 47px;
+    margin-top: 32px ;
+    opacity: .7;
+    background-color: #FFFFFF;
+}
