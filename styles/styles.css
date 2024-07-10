@@ -99,7 +99,7 @@
     background-color: rgba(13, 19, 33, 0.02);
     max-width: 1140px;
     margin: 74px auto 90px;
-    padding: 80px 97px;
+    padding: 97px 97px;
  }
 
  .section-1-heading {
@@ -145,3 +145,60 @@
     opacity: .7;
     background-color: #FFFFFF;
 }
+
+ /* Section 2 */
+
+  .section-2 {
+    text-align: center;
+  }
+  .section-2-heading {
+    margin: 90px 144px 24px;
+  }
+
+  .video {
+    padding: 32px 32px;
+    border: 0px solid #FFFFFF;
+    background-color: rgba(13, 19, 33, 0.01);
+
+  }
+
+
+ /* Section 3  */
+
+  .section-3 {
+    text-align: center;
+  }
+
+  .section-3-info {
+    margin: 0px 97px 48px;
+    padding: 0px 97px;
+
+  }
+
+  /* Section3 Subsections */
+
+  .subsections {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .subsection {
+    padding: 40px 40px;
+    max-width: 364px;
+    max-height: 300px;
+    border-radius: 16px;
+  }
+
+  .subsection-1 {
+    background-color: rgba(255, 76, 30, 0.05);
+  }
+
+  .subsection-2 {
+    background-color: rgba(0, 76, 232, 0.05);
+  }
+
+  .subsection-3 {
+    background-color: rgba(255, 223, 0, 0.05);
+  }
