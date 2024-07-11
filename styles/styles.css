@@ -215,6 +215,7 @@
   .subsection-link {
    font-size: 16px;
    font-weight: bold;
+   color: rgba(13, 19, 33, 1);
    text-decoration: none;
    text-decoration: underline;
    padding-top: 24px;
@@ -266,3 +267,49 @@
    color: #FFFFFF;
    padding: 0px 219px 24px; 
  }
+
+ #input {
+   max-width: 548px;
+   height:14px;
+   border-radius: 8px;
+   padding: 19px 215px 19px 40px;
+   font-size: 16px;
+   margin-right: 16px;
+ }
+
+ .btn-3 {
+   max-width: 120px;
+   height: 56px;
+   background-color: #FFFFFF;
+   border-radius: 8px;
+   font-size: 20px;
+   font-weight: 600;
+ }
+
+  /* Footer Styles */
+
+  nav div{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   text-align: center;
+   background-color: rgba(13, 19, 33, 0.03);
+   max-width: 1440px;
+   height: 82px;
+   padding: 14px 150px 14px 20px;
+  }
+
+  .nav-heading {
+   font-size: 20px;
+   font-weight: 600;
+   padding: 29px 0px 26px 150px;
+   text-align: left;
+  }
+
+  .contact-icons {
+   display: flex;
+   list-style: none;
+   text-decoration: none;
+   justify-content: flex-end;
+   gap: 20px;
+  }
