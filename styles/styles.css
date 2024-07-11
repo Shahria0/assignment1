@@ -71,6 +71,7 @@
     background-repeat: none;
     max-width: 1440px;
     text-align: center;
+    margin: auto;
  }
 
  .banner-margin {
@@ -157,8 +158,10 @@
 
   .video {
     padding: 32px 32px;
-    border: 0px solid #FFFFFF;
+    border: 1px solid rgba(13, 19, 33, 0.2);
     background-color: rgba(13, 19, 33, 0.01);
+    margin-top: 48px;
+    border-radius: 16px;
 
   }
 
@@ -186,13 +189,18 @@
 
   .subsection {
     padding: 40px 40px;
-    max-width: 364px;
+    width: 364px;
     max-height: 300px;
     border-radius: 16px;
   }
 
+  .section-3-info {
+   padding: 48px 144px;
+  }
+
   .subsection-1 {
     background-color: rgba(255, 76, 30, 0.05);
+    margin-left: 150px;
   }
 
   .subsection-2 {
@@ -201,4 +209,60 @@
 
   .subsection-3 {
     background-color: rgba(255, 223, 0, 0.05);
+    margin-right: 150px;
   }
+
+  .subsection-link {
+   font-size: 16px;
+   font-weight: bold;
+   text-decoration: none;
+   text-decoration: underline;
+   padding-top: 24px;
+   margin-top: 24px;
+   text-align: bottom left;
+  }
+
+  /* Section 4 Styles */
+
+  .s4-subsections {
+   display: flex;
+   max-width: 1140px;
+   height: 160px;
+   border: 1px solid rgba(13, 19, 33, 0.15);
+   border-radius: 16px;
+   margin: 0px auto 24px;
+   padding: 40px 40px;
+   gap: 24px;
+  }
+
+   .s4-heading {
+      text-align: center;
+      margin: 111px auto 10px;
+      padding: 48px 244px;
+   }
+
+ /* Section 5 Styles */
+
+ .s5-holder {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/handshake.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   max-width: 1140px;
+   height: 300px;
+   margin: 49px auto 80px;
+   border-radius: 16px;
+   text-align: center;
+   padding: 64px 48px ;
+ }
+
+ .s5-heading {
+   font-size: 32px;
+   font-weight: bold;
+   color: #FFFFFF;
+   padding: 0px 376px 16px;
+ }
+
+ .s5-description {
+   color: #FFFFFF;
+   padding: 0px 219px 24px; 
+ }
